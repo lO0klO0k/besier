@@ -39,7 +39,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
       
       The C compiler identification is MSVC, found in:
-        C:/Users/龙日一/Desktop/GAMES101-master/04/out/build/x64-Debug/CMakeFiles/3.26.0-msvc3/CompilerIdC/CMakeCCompilerId.exe
+        A:/vcpkg/besier/out/build/x64-Debug/CMakeFiles/3.26.0-msvc3/CompilerIdC/CMakeCCompilerId.exe
       
   -
     kind: "message-v1"
@@ -51,7 +51,7 @@ events:
     message: |
       Detecting C compiler /showIncludes prefix:
         main.c
-        注意: 包含文件:  C:\\Users\\龙日一\\Desktop\\GAMES101-master\\04\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        注意: 包含文件:  A:\\vcpkg\\besier\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
         
       Found prefix "注意: 包含文件:  "
   -
@@ -85,7 +85,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/龙日一/Desktop/GAMES101-master/04/out/build/x64-Debug/CMakeFiles/3.26.0-msvc3/CompilerIdCXX/CMakeCXXCompilerId.exe
+        A:/vcpkg/besier/out/build/x64-Debug/CMakeFiles/3.26.0-msvc3/CompilerIdCXX/CMakeCXXCompilerId.exe
       
   -
     kind: "message-v1"
@@ -97,7 +97,7 @@ events:
     message: |
       Detecting CXX compiler /showIncludes prefix:
         main.c
-        注意: 包含文件:  C:\\Users\\龙日一\\Desktop\\GAMES101-master\\04\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        注意: 包含文件:  A:\\vcpkg\\besier\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
         
       Found prefix "注意: 包含文件:  "
   -
@@ -109,8 +109,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/\u9f99\u65e5\u4e00/Desktop/GAMES101-master/04/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-8umc9p"
-      binary: "C:/Users/\u9f99\u65e5\u4e00/Desktop/GAMES101-master/04/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-8umc9p"
+      source: "A:/vcpkg/besier/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-g5mgtw"
+      binary: "A:/vcpkg/besier/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-g5mgtw"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       VCPKG_APPLOCAL_DEPS: "ON"
@@ -120,10 +120,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: C:/Users/龙日一/Desktop/GAMES101-master/04/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-8umc9p
+        Change Dir: A:/vcpkg/besier/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-g5mgtw
         
-        Run Build Command(s):D:/Microsoft Visual Studio/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_ee439 && [1/2] "D:\\Microsoft Visual Studio\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_ee439.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_ee439.dir\\ /FS -c "D:\\Microsoft Visual Studio\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
-        [2/2] cmd.exe /C "cd . && "D:\\Microsoft Visual Studio\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_ee439.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22000.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22000.0\\x64\\mt.exe" --manifests  -- "D:\\Microsoft Visual Studio\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_ee439.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_ee439.exe /implib:cmTC_ee439.lib /pdb:cmTC_ee439.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cmd.exe /C "cd /D C:\\Users\\龙日一\\Desktop\\GAMES101-master\\04\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-8umc9p && C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file A:/vcpkg/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/龙日一/Desktop/GAMES101-master/04/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-8umc9p/cmTC_ee439.exe -installedDir A:/vcpkg/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        Run Build Command(s):D:/Microsoft Visual Studio/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_55b5e && [1/2] "D:\\Microsoft Visual Studio\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_55b5e.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_55b5e.dir\\ /FS -c "D:\\Microsoft Visual Studio\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        [2/2] cmd.exe /C "cd . && "D:\\Microsoft Visual Studio\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_55b5e.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22000.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22000.0\\x64\\mt.exe" --manifests  -- "D:\\Microsoft Visual Studio\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_55b5e.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_55b5e.exe /implib:cmTC_55b5e.lib /pdb:cmTC_55b5e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cmd.exe /C "cd /D A:\\vcpkg\\besier\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-g5mgtw && C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file A:/vcpkg/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary A:/vcpkg/besier/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-g5mgtw/cmTC_55b5e.exe -installedDir A:/vcpkg/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
         
       exitCode: 0
   -
@@ -135,8 +135,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/\u9f99\u65e5\u4e00/Desktop/GAMES101-master/04/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-6sfbtw"
-      binary: "C:/Users/\u9f99\u65e5\u4e00/Desktop/GAMES101-master/04/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-6sfbtw"
+      source: "A:/vcpkg/besier/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-viaa0l"
+      binary: "A:/vcpkg/besier/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-viaa0l"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       VCPKG_APPLOCAL_DEPS: "ON"
@@ -146,10 +146,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: C:/Users/龙日一/Desktop/GAMES101-master/04/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-6sfbtw
+        Change Dir: A:/vcpkg/besier/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-viaa0l
         
-        Run Build Command(s):D:/Microsoft Visual Studio/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_ead42 && [1/2] "D:\\Microsoft Visual Studio\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_ead42.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_ead42.dir\\ /FS -c "D:\\Microsoft Visual Studio\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
-        [2/2] cmd.exe /C "cd . && "D:\\Microsoft Visual Studio\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_ead42.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22000.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22000.0\\x64\\mt.exe" --manifests  -- "D:\\Microsoft Visual Studio\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_ead42.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_ead42.exe /implib:cmTC_ead42.lib /pdb:cmTC_ead42.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cmd.exe /C "cd /D C:\\Users\\龙日一\\Desktop\\GAMES101-master\\04\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-6sfbtw && C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file A:/vcpkg/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/龙日一/Desktop/GAMES101-master/04/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-6sfbtw/cmTC_ead42.exe -installedDir A:/vcpkg/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        Run Build Command(s):D:/Microsoft Visual Studio/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_32876 && [1/2] "D:\\Microsoft Visual Studio\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_32876.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_32876.dir\\ /FS -c "D:\\Microsoft Visual Studio\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] cmd.exe /C "cd . && "D:\\Microsoft Visual Studio\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_32876.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22000.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22000.0\\x64\\mt.exe" --manifests  -- "D:\\Microsoft Visual Studio\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_32876.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_32876.exe /implib:cmTC_32876.lib /pdb:cmTC_32876.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cmd.exe /C "cd /D A:\\vcpkg\\besier\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-viaa0l && C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file A:/vcpkg/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary A:/vcpkg/besier/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-viaa0l/cmTC_32876.exe -installedDir A:/vcpkg/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
         
       exitCode: 0
   -
@@ -168,8 +168,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/\u9f99\u65e5\u4e00/Desktop/GAMES101-master/04/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-jqb1bv"
-      binary: "C:/Users/\u9f99\u65e5\u4e00/Desktop/GAMES101-master/04/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-jqb1bv"
+      source: "A:/vcpkg/besier/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-74atj0"
+      binary: "A:/vcpkg/besier/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-74atj0"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       VCPKG_APPLOCAL_DEPS: "ON"
@@ -179,12 +179,12 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: C:/Users/龙日一/Desktop/GAMES101-master/04/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-jqb1bv
+        Change Dir: A:/vcpkg/besier/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-74atj0
         
-        Run Build Command(s):D:/Microsoft Visual Studio/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_159b7 && [1/2] "D:\\Microsoft Visual Studio\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_159b7.dir\\src.c.obj /FdCMakeFiles\\cmTC_159b7.dir\\ /FS -c C:\\Users\\龙日一\\Desktop\\GAMES101-master\\04\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-jqb1bv\\src.c
-        FAILED: CMakeFiles/cmTC_159b7.dir/src.c.obj 
-        "D:\\Microsoft Visual Studio\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_159b7.dir\\src.c.obj /FdCMakeFiles\\cmTC_159b7.dir\\ /FS -c C:\\Users\\龙日一\\Desktop\\GAMES101-master\\04\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-jqb1bv\\src.c
-        C:\\Users\\龙日一\\Desktop\\GAMES101-master\\04\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-jqb1bv\\src.c(1): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory
+        Run Build Command(s):D:/Microsoft Visual Studio/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_ca0cd && [1/2] "D:\\Microsoft Visual Studio\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_ca0cd.dir\\src.c.obj /FdCMakeFiles\\cmTC_ca0cd.dir\\ /FS -c A:\\vcpkg\\besier\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-74atj0\\src.c
+        FAILED: CMakeFiles/cmTC_ca0cd.dir/src.c.obj 
+        "D:\\Microsoft Visual Studio\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_ca0cd.dir\\src.c.obj /FdCMakeFiles\\cmTC_ca0cd.dir\\ /FS -c A:\\vcpkg\\besier\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-74atj0\\src.c
+        A:\\vcpkg\\besier\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-74atj0\\src.c(1): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory
         ninja: build stopped: subcommand failed.
         
       exitCode: 1
@@ -203,8 +203,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/\u9f99\u65e5\u4e00/Desktop/GAMES101-master/04/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-5nq8lf"
-      binary: "C:/Users/\u9f99\u65e5\u4e00/Desktop/GAMES101-master/04/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-5nq8lf"
+      source: "A:/vcpkg/besier/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-7pi1o5"
+      binary: "A:/vcpkg/besier/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-7pi1o5"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       VCPKG_APPLOCAL_DEPS: "ON"
@@ -214,13 +214,13 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: C:/Users/龙日一/Desktop/GAMES101-master/04/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-5nq8lf
+        Change Dir: A:/vcpkg/besier/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-7pi1o5
         
-        Run Build Command(s):D:/Microsoft Visual Studio/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_cbd94 && [1/2] "D:\\Microsoft Visual Studio\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_cbd94.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_cbd94.dir\\ /FS -c C:\\Users\\龙日一\\Desktop\\GAMES101-master\\04\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-5nq8lf\\CheckFunctionExists.c
-        [2/2] cmd.exe /C "cd . && "D:\\Microsoft Visual Studio\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_cbd94.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22000.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22000.0\\x64\\mt.exe" --manifests  -- "D:\\Microsoft Visual Studio\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_cbd94.dir\\CheckFunctionExists.c.obj  /out:cmTC_cbd94.exe /implib:cmTC_cbd94.lib /pdb:cmTC_cbd94.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cmd.exe /C "cd /D C:\\Users\\龙日一\\Desktop\\GAMES101-master\\04\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-5nq8lf && C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file A:/vcpkg/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/龙日一/Desktop/GAMES101-master/04/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-5nq8lf/cmTC_cbd94.exe -installedDir A:/vcpkg/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
-        FAILED: cmTC_cbd94.exe 
-        cmd.exe /C "cd . && "D:\\Microsoft Visual Studio\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_cbd94.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22000.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22000.0\\x64\\mt.exe" --manifests  -- "D:\\Microsoft Visual Studio\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_cbd94.dir\\CheckFunctionExists.c.obj  /out:cmTC_cbd94.exe /implib:cmTC_cbd94.lib /pdb:cmTC_cbd94.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cmd.exe /C "cd /D C:\\Users\\龙日一\\Desktop\\GAMES101-master\\04\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-5nq8lf && C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file A:/vcpkg/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/龙日一/Desktop/GAMES101-master/04/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-5nq8lf/cmTC_cbd94.exe -installedDir A:/vcpkg/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
-        LINK Pass 1: command "D:\\Microsoft Visual Studio\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_cbd94.dir\\CheckFunctionExists.c.obj /out:cmTC_cbd94.exe /implib:cmTC_cbd94.lib /pdb:cmTC_cbd94.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_cbd94.dir/intermediate.manifest CMakeFiles\\cmTC_cbd94.dir/manifest.res" failed (exit code 1104) with the following output:
+        Run Build Command(s):D:/Microsoft Visual Studio/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_c1c7b && [1/2] "D:\\Microsoft Visual Studio\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_c1c7b.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_c1c7b.dir\\ /FS -c A:\\vcpkg\\besier\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-7pi1o5\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "D:\\Microsoft Visual Studio\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_c1c7b.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22000.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22000.0\\x64\\mt.exe" --manifests  -- "D:\\Microsoft Visual Studio\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_c1c7b.dir\\CheckFunctionExists.c.obj  /out:cmTC_c1c7b.exe /implib:cmTC_c1c7b.lib /pdb:cmTC_c1c7b.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cmd.exe /C "cd /D A:\\vcpkg\\besier\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-7pi1o5 && C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file A:/vcpkg/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary A:/vcpkg/besier/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-7pi1o5/cmTC_c1c7b.exe -installedDir A:/vcpkg/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        FAILED: cmTC_c1c7b.exe 
+        cmd.exe /C "cd . && "D:\\Microsoft Visual Studio\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_c1c7b.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22000.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22000.0\\x64\\mt.exe" --manifests  -- "D:\\Microsoft Visual Studio\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_c1c7b.dir\\CheckFunctionExists.c.obj  /out:cmTC_c1c7b.exe /implib:cmTC_c1c7b.lib /pdb:cmTC_c1c7b.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cmd.exe /C "cd /D A:\\vcpkg\\besier\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-7pi1o5 && C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file A:/vcpkg/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary A:/vcpkg/besier/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-7pi1o5/cmTC_c1c7b.exe -installedDir A:/vcpkg/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        LINK Pass 1: command "D:\\Microsoft Visual Studio\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_c1c7b.dir\\CheckFunctionExists.c.obj /out:cmTC_c1c7b.exe /implib:cmTC_c1c7b.lib /pdb:cmTC_c1c7b.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_c1c7b.dir/intermediate.manifest CMakeFiles\\cmTC_c1c7b.dir/manifest.res" failed (exit code 1104) with the following output:
         LINK : fatal error LNK1104: 无法打开文件“pthreads.lib”\x0d
         ninja: build stopped: subcommand failed.
         
@@ -240,8 +240,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/\u9f99\u65e5\u4e00/Desktop/GAMES101-master/04/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-p6gtkp"
-      binary: "C:/Users/\u9f99\u65e5\u4e00/Desktop/GAMES101-master/04/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-p6gtkp"
+      source: "A:/vcpkg/besier/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-jxs1c8"
+      binary: "A:/vcpkg/besier/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-jxs1c8"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       VCPKG_APPLOCAL_DEPS: "ON"
@@ -251,13 +251,13 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: C:/Users/龙日一/Desktop/GAMES101-master/04/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-p6gtkp
+        Change Dir: A:/vcpkg/besier/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-jxs1c8
         
-        Run Build Command(s):D:/Microsoft Visual Studio/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_0b391 && [1/2] "D:\\Microsoft Visual Studio\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_0b391.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_0b391.dir\\ /FS -c C:\\Users\\龙日一\\Desktop\\GAMES101-master\\04\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-p6gtkp\\CheckFunctionExists.c
-        [2/2] cmd.exe /C "cd . && "D:\\Microsoft Visual Studio\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_0b391.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22000.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22000.0\\x64\\mt.exe" --manifests  -- "D:\\Microsoft Visual Studio\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_0b391.dir\\CheckFunctionExists.c.obj  /out:cmTC_0b391.exe /implib:cmTC_0b391.lib /pdb:cmTC_0b391.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cmd.exe /C "cd /D C:\\Users\\龙日一\\Desktop\\GAMES101-master\\04\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-p6gtkp && C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file A:/vcpkg/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/龙日一/Desktop/GAMES101-master/04/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-p6gtkp/cmTC_0b391.exe -installedDir A:/vcpkg/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
-        FAILED: cmTC_0b391.exe 
-        cmd.exe /C "cd . && "D:\\Microsoft Visual Studio\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_0b391.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22000.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22000.0\\x64\\mt.exe" --manifests  -- "D:\\Microsoft Visual Studio\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_0b391.dir\\CheckFunctionExists.c.obj  /out:cmTC_0b391.exe /implib:cmTC_0b391.lib /pdb:cmTC_0b391.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cmd.exe /C "cd /D C:\\Users\\龙日一\\Desktop\\GAMES101-master\\04\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-p6gtkp && C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file A:/vcpkg/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/龙日一/Desktop/GAMES101-master/04/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-p6gtkp/cmTC_0b391.exe -installedDir A:/vcpkg/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
-        LINK Pass 1: command "D:\\Microsoft Visual Studio\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0b391.dir\\CheckFunctionExists.c.obj /out:cmTC_0b391.exe /implib:cmTC_0b391.lib /pdb:cmTC_0b391.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_0b391.dir/intermediate.manifest CMakeFiles\\cmTC_0b391.dir/manifest.res" failed (exit code 1104) with the following output:
+        Run Build Command(s):D:/Microsoft Visual Studio/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_17ada && [1/2] "D:\\Microsoft Visual Studio\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_17ada.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_17ada.dir\\ /FS -c A:\\vcpkg\\besier\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-jxs1c8\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "D:\\Microsoft Visual Studio\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_17ada.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22000.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22000.0\\x64\\mt.exe" --manifests  -- "D:\\Microsoft Visual Studio\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_17ada.dir\\CheckFunctionExists.c.obj  /out:cmTC_17ada.exe /implib:cmTC_17ada.lib /pdb:cmTC_17ada.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cmd.exe /C "cd /D A:\\vcpkg\\besier\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-jxs1c8 && C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file A:/vcpkg/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary A:/vcpkg/besier/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-jxs1c8/cmTC_17ada.exe -installedDir A:/vcpkg/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        FAILED: cmTC_17ada.exe 
+        cmd.exe /C "cd . && "D:\\Microsoft Visual Studio\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_17ada.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22000.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22000.0\\x64\\mt.exe" --manifests  -- "D:\\Microsoft Visual Studio\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_17ada.dir\\CheckFunctionExists.c.obj  /out:cmTC_17ada.exe /implib:cmTC_17ada.lib /pdb:cmTC_17ada.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cmd.exe /C "cd /D A:\\vcpkg\\besier\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-jxs1c8 && C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file A:/vcpkg/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary A:/vcpkg/besier/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-jxs1c8/cmTC_17ada.exe -installedDir A:/vcpkg/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        LINK Pass 1: command "D:\\Microsoft Visual Studio\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_17ada.dir\\CheckFunctionExists.c.obj /out:cmTC_17ada.exe /implib:cmTC_17ada.lib /pdb:cmTC_17ada.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_17ada.dir/intermediate.manifest CMakeFiles\\cmTC_17ada.dir/manifest.res" failed (exit code 1104) with the following output:
         LINK : fatal error LNK1104: 无法打开文件“pthread.lib”\x0d
         ninja: build stopped: subcommand failed.
         

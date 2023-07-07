@@ -1,6 +1,6 @@
 
 find_package(OpenCV REQUIRED)
-add_executable(04 main.cpp)
+add_executable(besier main.cpp)
 
-target_link_libraries(04  ${OpenCV_LIBS})
+target_link_libraries(main  ${OpenCV_LIBS})
 
